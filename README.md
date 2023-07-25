@@ -57,6 +57,7 @@ const saveMessages = (name, emailid, msgContent) => {
     msgContent: msgContent,
   });
 };
+
 20.	Define the getElementVal function used earlier:
 const getElementVal = (id) => {
   return document.getElementById(id).value;
